@@ -10,11 +10,11 @@ function Main() {
       {/* Left side (50%) */}
       <div className="lg:w-[50%] w-full h-full flex flex-col items-evenly justify-center">
         <div className="flex flex-col items-start justify-center h-full w-full">
-          <h3 className=" font-poppins font-medium text-[25px] text-left text-[#03B0FD] ">
+          <h3 className=" font-poppins font-medium text-[25px] text-left text-white ">
             Hey! It's Me
           </h3>
           <h2 className="text-[#03B0FD] font-inder font-normal text-[60px] text-left m-0">
-            Hammad Saleem
+            Hammad <span className="text-white">Saleem</span>
           </h2>
           <p className="text-white font-poppins text-[25px] text-left my-[20px] flex gap-2 font-semibold">
             I am a  
@@ -23,6 +23,7 @@ function Main() {
                 strings: ["Web Developer", "Full Stack Developer", "MERN Stack Developer", "Frontend Developer"],
                 autoStart: true,
                 loop: true,
+              
               }}
             />
           </p>
@@ -54,7 +55,7 @@ function Main() {
             <button
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1IprMZvnx6amDoUOujHmD24W0IafNM7aY/view?usp=drive_link",
+                  "https://drive.google.com/file/d/1GpuNjYlfMjuykiU8t6JDee5ZhE8EYOux/view?usp=drive_link",
                   "_blank"
                 )
               }
