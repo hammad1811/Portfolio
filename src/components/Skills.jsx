@@ -48,7 +48,7 @@ const Skills = () => {
   return (
     <motion.section 
       ref={ref}
-      className="w-full py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#151925] to-[#1a1f30]"
+      className="w-full py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b bg-[#151925]"
       initial="hidden"
       animate={isInView ? "visible" : "hidden"}
       variants={container}

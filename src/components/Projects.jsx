@@ -63,7 +63,7 @@ const Projects = () => {
     <motion.section 
       ref={ref}
       id="project"
-      className="w-full py-20 px-4 sm:px-6 lg:px-8 bg-[#0f121b]"
+      className="w-full py-20 px-4 sm:px-6 lg:px-8 bg-[#151925]"
       initial="hidden"
       animate={isInView ? "visible" : "hidden"}
       variants={container}
