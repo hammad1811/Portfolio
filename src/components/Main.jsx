@@ -23,8 +23,9 @@ function Main() {
                 strings: ["Web Developer", "Full Stack Developer", "MERN Stack Developer", "Frontend Developer"],
                 autoStart: true,
                 loop: true,
-              
+                wrapperClassName:"text-[#03B0FD]"
               }}
+               
             />
           </p>
 
