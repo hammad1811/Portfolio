@@ -55,7 +55,7 @@ const About = () => {
                 <img 
                   src={profile} 
                   alt="Profile"
-                  className="w-full h-full object-cover rounded-full transition-transform duration-300 transform hover:scale-105"
+                  className="w-full h-full object-cover rounded-full transition-transform duration-300 scale-150 pt-6 transform"
                 />
 
               </div>
