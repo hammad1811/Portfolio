@@ -17,8 +17,8 @@ const Projects = () => {
     },
     {
       title: "Todo App",
-      description: "Productivity application with drag-and-drop interface, team collaboration features, and real-time updates.",
-      tags: ["React", "Firebase", "Tailwind CSS", "Dnd Kit"],
+      description: "A full-stack Todo application with user authentication, CRUD operations",
+      tags: ["React", "Node.js", "MongoDB", "Express"],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
       github: "https://github.com/hammad1811/todoApp.git",
       live: "#"
