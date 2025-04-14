@@ -6,7 +6,7 @@ import Typewriter from "typewriter-effect";
 
 function Main() {
   return (
-    <motion.div className="w-full bg-[#151925] h-screen flex relative overflow-hidden pt-24 px-28" id="mainy">
+    <motion.div className="w-full bg-[#151925] h-screen flex relative overflow-hidden sm:pt-24 sm:px-28 px-5" id="mainy">
       {/* Left side (50%) */}
       <div className="lg:w-[50%] w-full h-full flex flex-col items-evenly justify-center">
         <div className="flex flex-col items-start justify-center h-full w-full">
